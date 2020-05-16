@@ -1,3 +1,13 @@
+body {
+    background-image: url(coin_toss_background.jpg);
+    background-size: cover;
+}
+
+#flip {
+    text-align: center;
+    margin-top: 100px;
+}
+
 #double {
     height: 100px;
     width: 200px;
@@ -11,4 +21,26 @@
 #back {
     height: 100px;
     width: 100px;
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    color: silver;
+}
+
+p {
+    color: silver;
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background: none;
+    border: solid;
+    border-color: gold;
+    border-radius: 100px;
+    padding: 10px;
 }
