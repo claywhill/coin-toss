@@ -1,4 +1,14 @@
-img {
+#double {
     height: 100px;
     width: 200px;
+}
+
+#face {
+    height: 100px;
+    width: 100px;
+}
+
+#back {
+    height: 100px;
+    width: 100px;
 }
