@@ -16,17 +16,13 @@ $("button").click(function coinToss() {
     $("#back").hide();
     heads++;
     $("#heads").text("Heads: " + heads);
-    reset();
-  } else {
+    toss = Math.floor((Math.random() * 2) + 1);
+    } else {
     $("#double").hide();
     $("#face").hide();
     $("#back").show();
     tails++;
     $("#tails").text("Tails: " + tails);
-    reset();
+    toss = Math.floor((Math.random() * 2) + 1);
   }
 })
-
-function reset() {
-  toss = Math.floor((Math.random() * 2) + 1);
-}
